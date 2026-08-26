@@ -1,0 +1,125 @@
+/* === IMPORTAÇÃO DE FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&display=swap');
+/*
+Follow - font-family: "Fredoka", sans-serif;
+Medu - Oswald
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+    font-family: "Epilogue", sans-serif;
+}
+h1{
+    font-family: "Nunito", sans-serif;
+}
+h2,h3,h4,h5,h6{
+    font-family: "Oswald", sans-serif;
+}
+
+header {
+    text-align: center;
+}
+header nav ul li.button a{
+    background-color: #FFD40D;
+    border-radius: 1vw;
+    color: white;
+    padding: 2vw 2vw 2vw 2vw;
+    display: inline-block;
+}
+section.banner{
+    padding: 2rem 1rem 2rem 1rem;
+    background-color: #ffadad;
+    margin: 2vw 0vw 0vw 0vw;
+}
+section.banner h2{
+    font-size: 1.5rem;
+}
+section.banner p{
+    font-weight: 300;
+    padding: 5vw 0vw 5vw 0vw;
+}
+section.banner span a{
+    background-color: #ED274B;
+    border-radius: 4vw;
+    padding: 1vw 4vw 1vw 4vw ;
+    color: white;
+}
+section.banner img{
+    padding: 5vw 1vw 1vw 1vw;
+}
+section.food {
+    background-color: rgb(226, 255, 255);
+    padding: 2rem 1rem 2rem 1rem;
+}
+section.food h3 {
+    color: #00A149;
+    font-size: 0.5rem;
+}
+section.food h2 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+section.food ul li{
+    text-align: center;
+    background-color: white;
+    border-radius: 2vw;
+    margin: 4vw;
+    padding: 5vw;
+}
+section.food h4 span{
+    font-size: 1.5rem;
+    border-bottom: solid 2px #FFD40D;
+}
+section.food p {
+    margin: 2vw;
+    color: #FFD40D;
+}
+section.social {
+    align-items: center;
+    text-align: center;
+    margin: 2vw;
+}
+section.social h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+section.social p{
+    font-weight: 200;
+    padding: 5vw;
+}
+section.social ul li {
+    padding: 5vw ;
+}
+footer p {
+    background-color: #F5F8FD ;
+    padding: 10vw ;
+    font-weight: 800;
+    font-size: 0.5rem;
+}
+footer span{
+    color: #F3274C;
+}
+
+
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw 2vw 10vw;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    font-weight: 200;
+    gap: 50px;
+    font-size: 0.6rem;
+    align-items: center;
+}
+header nav ul li.button a{
+    padding: 1vw 1vw 1vw 1vw;
+}
+}
+
