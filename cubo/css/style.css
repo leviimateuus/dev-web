@@ -1,0 +1,119 @@
+/* === IMPORTAÇÃO DE FONTES */
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+/*
+Fontes Disponíveis:
+// Sugiro usar esta 
+font-family: "Urbanist", sans-serif; 
+font-family: "Fredoka", sans-serif;
+font-family: "Epilogue", sans-serif;
+font-family: "Nunito", sans-serif;
+font-family: "Oswald", sans-serif;
+*/
+/* ==========================*/
+
+/* ==== FORMATAÇÃO GERAL === */
+html{
+    font-size: clamp(1rem, 2vw + 0.8rem, 3rem);
+    background-color: #E9EAF8;
+}
+header nav ul li{
+    text-align: center;
+    padding: 2vw;
+    font-size: 0.9rem;
+}
+header h1{
+    font-size: 1.5rem;
+}
+header span{
+    background-color: #747ED1;
+    border-radius: 5vw;
+    padding: 2vw 4vw 2vw 4vw;
+    color: white;
+}
+.banner{
+    background-color: #51225E;
+    border-radius: 2vw;
+    margin: 2vw;
+    padding: 15VW 15VW 15VW 10VW;
+    text-align: center;
+    color: white;
+}
+.banner h2 {
+    font-size: 2rem;
+    padding: 0vw 0vw 5vw 0vw;
+}
+.banner p{
+    font-size: 0.7rem;
+}
+.web {
+    background-color: #ffffff;
+    border-radius: 2vw;
+    margin: 2vw;
+    padding: 15VW 15VW 15VW 10VW;
+    text-align: center;
+}
+.web h2{
+    font-size: 1.5rem;
+    padding: 5vw;
+}
+.web p{
+    font-size: 0.7rem;
+    padding: 0vw 0vw 5vw 0vw;
+}
+.web span{
+    color: #747ED1;
+    background-color: #E9EAF8;
+    padding: 2vw 2vw 2vw 2vw;
+    border-radius: 5vw;
+    font-size: 0.6rem;
+}
+.video{
+    background-color: #ffffff;
+    border-radius: 2vw;
+    margin: 2vw;
+    padding: 15VW 15VW 15VW 15VW;
+    text-align: center;
+}
+.video h2{
+    padding: 15vw 0vw 10vw 0vw;
+}
+.video span{
+    color: #747ED1;
+}
+.video h3{
+    padding: 3vw;
+}
+.video p{
+    font-size: 0.8rem;
+    padding: 3vw;
+}
+footer{
+    background-color: #000000;
+    border-radius: 2vw;
+    margin: 2vw;
+    padding: 2VW 2VW 0VW 2VW;
+    text-align: center;
+    color: white;
+}
+footer p{
+    font-size: 0.7rem;
+    padding: 3vw 0vw 0vw 0vw;
+}
+footer ul{
+    display: flex;
+    padding: 2vw 0vw 2vw 40vw ;
+    gap: 2vw;
+}
+/* MEDIA QUERY - DESKTOP */
+@media  screen and (min-width: 600px) {
+header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.web{
+    display: flex;
+    
+}
+}
