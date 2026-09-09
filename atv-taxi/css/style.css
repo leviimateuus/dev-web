@@ -19,6 +19,37 @@ header nav ul li.button-yellow a{
   border-radius: 5px;
   display: inline-block;
 }
+.banner{
+  background: url(../images/background-banner.png ) no-repeat;
+  background-size:auto 100% auto;
+  padding: 3vw 5vw 3vw 5vw;
+  margin-top: 5vw;
+}
+.banner div.image{
+  display: none ;
+}
+.banner h2{
+  font-size: 2rem;
+}
+.banner p{
+  color: rgb(68, 68, 68);
+  font-size: 0.9rem;
+  margin: 20px 0 0 0;
+}
+.banner p a{
+  background: rgb(49, 49, 49);
+  display: flex;
+  align-items: center;
+  padding: 8px 18px 8px 18px;
+  gap: 8px;
+  border-radius: 2vw;
+  color: white;
+}
+.banner p.buttons{
+  display: flex;
+  gap: 10px;
+  
+}
 
 
 
@@ -34,6 +65,14 @@ header nav ul li.button-yellow a{
   }
   header{
     padding: 2vw 5vw 2vw 5vw;
+  }
+  .banner div.image{
+    display: block;
+    text-align: right;
+  }
+  .banner img{
+    
+    width: 50%;
   }
 }
 
