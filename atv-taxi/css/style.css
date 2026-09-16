@@ -28,6 +28,9 @@ header nav ul li.button-yellow a{
 .banner div.image{
   display: none ;
 }
+.banner div.image img{
+  width: 20vw;
+}
 .banner h2{
   font-size: 2rem;
 }
@@ -49,6 +52,37 @@ header nav ul li.button-yellow a{
   display: flex;
   gap: 10px;
   
+}
+.ride div.image{
+  display: none;
+}
+.ride {
+  text-align: center;
+  padding: 3vw 5vw 3vw 5vw;
+}
+.ride h2{
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 10px 0 10px 0;
+}
+.ride div.lixta ul li{
+  margin: 20px 0 20px 0;
+}
+.ride div.lixta ul li h3{
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.download{
+  background-color: #fbbc05;
+  margin: 3vw 5vw 3vw 5vw;
+  border-radius: 10px;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+.download h2{
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 0 0 20px 0;
 }
 
 
@@ -73,6 +107,30 @@ header nav ul li.button-yellow a{
   .banner img{
     
     width: 50%;
+  }
+  .ride div.image{
+    display: block;
+  }
+  .ride>p{
+    padding: 0 20% 0 20%;
+
+  }
+  .ride > div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  .ride div.lixta ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 40vw;
+  }
+  .download{
+    padding: 3vw 3vw 3vw 3vw;
+  }
+  .download p{
+    width: 20%;
   }
 }
 
